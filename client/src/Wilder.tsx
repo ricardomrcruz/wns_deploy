@@ -3,9 +3,9 @@ import blank_profile from "./blank-profile-picture-female.png";
 import { Card } from "./styles/elements";
 
 type WilderProps = {
-  name: string
-  city: string
-}
+  name: string;
+  city: string;
+};
 
 function Wilder({ city, name }: WilderProps) {
   return (
